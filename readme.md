@@ -1,4 +1,4 @@
-# Running `llama-2-7b`` and `llama-2-13b` models locally
+# Running `llama-2-7b` and `llama-2-13b` models locally
 
 ## Step 1: Acquire your models
 Use the `ggml` quantized versions of Llama-2 models from [TheBloke](https://huggingface.co/TheBloke). There are several versions to choose from - `TheBloke` helpfully lists pros and cons of these models. The link to download the model directly is found by right clicking the download symbol next to the model file in the `Files and Versions` tab on the huggingface repo. You can use `wget` to download the file. Below is the command to download a 4-bit version of `llama-2-13b-chat`.
